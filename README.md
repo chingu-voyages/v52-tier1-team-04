@@ -29,15 +29,17 @@ coding!
 
 
 
-[^1] With appropriate equiment.
+[^1]: With appropriate eqipment.
 ---
+
 _ADMIN ONLY_
+
 ## Team Documents
+
 > [!NOTE]  
 > - [Team Decision Log](./docs/team_decision_log.md)
 > - [Push Request Template](.github/PULL_TEMPLATE/pull_request_template.md)
 > - [Issue Template](.github/ISSUE_TEMPLATE/task-template.md)
-
 
 
 Meeting Agenda templates (located in the `/docs` directory in this repo):
