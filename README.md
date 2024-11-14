@@ -1,24 +1,21 @@
 <h1 align="center">Solar Panel Planning:</h1>
 <h1 align="center">Find Us, Install with Us, Help Us Maintain It</h1>
 
+Solar energy: At the forefront of alternative energy in California.
 
-Solar energy: At the forefront of alternative energy in California. 
-
-Gathered by photovolatic cell arrays, photons emitted by the Sun charge and store energy. 
+Gathered by photovolatic cell arrays, photons emitted by the Sun charge and store energy.
 
 Give back to the grid through you home electrical lines - thereby adding to the community reduction of fossil fuel grid powered electrical power stations, or you store it at home[^1].
 
-Call us TODAY. 
+Call us TODAY.
 
 [LIVE LINK](https://github.com/chingu-voyages/v52-tier1-team-04).
-
-
 
 ## Our Team
 
 Everyone on your team should add their name along with a link to their GitHub
 & optionally their LinkedIn profiles below. Do this in Sprint #1 to validate
-your repo access and to practice PR'ing with your team *before* you start
+your repo access and to practice PR'ing with your team _before_ you start
 coding!
 
 - Teammate name #1: [GitHub](https://github.com/ghaccountname) / [LinkedIn](https://linkedin.com/in/liaccountname)
@@ -27,18 +24,17 @@ coding!
 - Teammate name #n: [GitHub](https://github.com/ghaccountname) / [LinkedIn](https://linkedin.com/in/liaccountname)
 - Teammate name #n: [GitHub](https://github.com/ghaccountname) / [LinkedIn](https://linkedin.com/in/liaccountname)
 
+## [^1]: With appropriate eqipment.
 
-
-[^1]: With appropriate equipment.
----
 _ADMIN ONLY_
+
 ## Team Documents
-> [!NOTE]  
+
+> [!NOTE]
+>
 > - [Team Decision Log](./docs/team_decision_log.md)
 > - [Push Request Template](.github/PULL_TEMPLATE/pull_request_template.md)
 > - [Issue Template](.github/ISSUE_TEMPLATE/task-template.md)
-
-
 
 Meeting Agenda templates (located in the `/docs` directory in this repo):
 
