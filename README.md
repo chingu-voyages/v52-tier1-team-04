@@ -29,7 +29,7 @@ coding!
 
 
 
-[^1] With appropriate equiment.
+[^1]: With appropriate equipment.
 ---
 _ADMIN ONLY_
 ## Team Documents
