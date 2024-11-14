@@ -11,8 +11,14 @@ Call us TODAY.
 
 [LIVE LINK](https://github.com/chingu-voyages/v52-tier1-team-04).
 
-## Our Team
+1. [Our Team](#1)
+1. [Team Documents](#2)
+1. [Development Guide](#3)
+1. [SETUP](#4)
 
+## [Our Team](#1)
+
+<a name="types--our_team"></a>
 Everyone on your team should add their name along with a link to their GitHub
 & optionally their LinkedIn profiles below. Do this in Sprint #1 to validate
 your repo access and to practice PR'ing with your team _before_ you start
@@ -24,11 +30,11 @@ coding!
 - Teammate name #n: [GitHub](https://github.com/ghaccountname) / [LinkedIn](https://linkedin.com/in/liaccountname)
 - Teammate name #n: [GitHub](https://github.com/ghaccountname) / [LinkedIn](https://linkedin.com/in/liaccountname)
 
-## [^1]: With appropriate eqipment.
+## [^1] With appropriate equiment.
 
 _ADMIN ONLY_
 
-## Team Documents
+## [Team Documents](#2)
 
 > [!NOTE]
 >
@@ -42,3 +48,38 @@ Meeting Agenda templates (located in the `/docs` directory in this repo):
 - Meeting - App Vision & Feature Planning --> ./docs/meeting-vision_and_feature_planning.docx
 - Meeting - Sprint Retrospective, Review, and Planning --> ./docs/meeting-sprint_retrospective_review_and_planning.docx
 - Meeting - Sprint Open Topic Session --> ./docs/meeting-sprint_open_topic_session.docx
+
+## **[⬆ back to top](#table-of-contents)**
+
+---
+
+## [DEVELOPMENT GUIDE](#3)
+
+### Git WorkFlow & Naming
+
+#### Branches
+
+Suggestions:
+
+- `main` - Our production code
+- `dev` - Where we push to and test
+- `feature/thing` - New things we're building
+- `fix/thing` - For fixing bugs
+- `refactor/thing` - For cleaaning up code
+
+Commit Messages:
+
+- `feat: add login form`
+- `fix: form validation bug`
+- `refactor: cleaned up CSS`
+
+Etc:
+
+- Use PascalCase: `LoginForm.jsx`, `AdminPage.jsx`
+- CSS files match their use name: `LoginForm.css`, `AdminPage.css`
+
+## **[⬆ back to top](#table-of-contents)**
+
+---
+
+## [SETUP](#4)
