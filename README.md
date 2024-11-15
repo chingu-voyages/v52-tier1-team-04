@@ -9,8 +9,6 @@ Give back to the grid through you home electrical lines - thereby adding to the 
 
 Call us TODAY.
 
-[LIVE LINK](https://github.com/chingu-voyages/v52-tier1-team-04).
-
 ## [Table Of Contents]
 
 - [Overview](#overview)
@@ -42,6 +40,8 @@ City Hall Employee: Can access appointment requests, generate visit schedules fo
 ![]
 
 ## Live Page
+
+[LIVE LINK](https://github.com/chingu-voyages/v52-tier1-team-04)
 
 ## Technologies Used
 
