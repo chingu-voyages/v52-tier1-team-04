@@ -1,5 +1,5 @@
 <h1 align="center">Solar Panel Planning:</h1>
-<h1 align="center">Find Us, Install with Us, Help Us Maintain It</h1>
+<h2 align="center">Find Us, Install with Us, Help Us Maintain It</h2>
 
 Solar energy: At the forefront of alternative energy in California.
 
@@ -11,28 +11,58 @@ Call us TODAY.
 
 [LIVE LINK](https://github.com/chingu-voyages/v52-tier1-team-04).
 
-1. [Our Team](#1)
-1. [Team Documents](#2)
-1. [Development Guide](#3)
-1. [SETUP](#4)
+## [Table Of Contents]
 
-## [Our Team](#1)
+- [Overview](#overview)
+- [Preview](#preview)
+- [Live Page](#live-page)
+- [Technologies used](#technologies-used)
+- [Design](#design)
+- [Features](#features)
+- [Usage](#usage)
+- [Credits](#credits)
+- [Our Team - TEAM 4](#our-team)
+
+1. [Team Documents](#3)
+1. [Development Guide](#4)
+1. [SETUP](#5)
+
+## Overview
+
+The city of Los Angeles is encouraging residents to install private solar panels as part of a local initiative to combat global warming. This project provides a free service where a city-hired specialist evaluates the installation and maintenance costs of solar panels. The initial MVP is a web-based application enabling residents to schedule appointments and allowing city employees to manage and plan these visits effectively. We've created a user-friendly solar panel planning application that simplifies the process of scheduling evaluations. Get ready to combine your problem-solving skills and creativity to build a tool that makes solar panel installation and maintenance planning a breeze!
+
+The application supports two main roles:
+
+Resident: Can request an appointment for a solar panel evaluation by submitting their contact details, address, and preferred timeslot.
+
+City Hall Employee: Can access appointment requests, generate visit schedules for specialists, and export planning details in a downloadable/printable format.
+
+## Preview 
+
+![]
+
+## Live Page
+
+## Technologies Used
+
+## Design
+
+## Features
+
+## Usage
+
+## Credits
+
+## [Our Team]
 
 <a name="types--our_team"></a>
-Everyone on your team should add their name along with a link to their GitHub
-& optionally their LinkedIn profiles below. Do this in Sprint #1 to validate
-your repo access and to practice PR'ing with your team _before_ you start
-coding!
 
 - Teammate name #1: [GitHub](https://github.com/ghaccountname) / [LinkedIn](https://linkedin.com/in/liaccountname)
 - Ben Tryon #2: [GitHub](https://github.com/bbbb4tryon) / [LinkedIn]()
-- Teammate name #n: [GitHub](https://github.com/ghaccountname) / [LinkedIn](https://linkedin.com/in/liaccountname)
+- Dana Conlin: [GitHub](https://github.com/dcunivers) / [LinkedIn](https://linkedin.com/in/danacconlin)
 - Teammate name #n: [GitHub](https://github.com/ghaccountname) / [LinkedIn](https://linkedin.com/in/liaccountname)
 - Teammate name #n: [GitHub](https://github.com/ghaccountname) / [LinkedIn](https://linkedin.com/in/liaccountname)
 
-[^1] With appropriate equipment.
-
-_ADMIN ONLY_
 
 ## [Team Documents](#2)
 
@@ -42,12 +72,6 @@ _ADMIN ONLY_
 > - [Push Request Template](.github/PULL_TEMPLATE/pull_request_template.md)
 > - [Issue Template](.github/ISSUE_TEMPLATE/task-template.md)
 
-Meeting Agenda templates (located in the `/docs` directory in this repo):
-
-- Meeting - Voyage Kickoff --> ./docs/meeting-voyage_kickoff.docx
-- Meeting - App Vision & Feature Planning --> ./docs/meeting-vision_and_feature_planning.docx
-- Meeting - Sprint Retrospective, Review, and Planning --> ./docs/meeting-sprint_retrospective_review_and_planning.docx
-- Meeting - Sprint Open Topic Session --> ./docs/meeting-sprint_open_topic_session.docx
 
 ## **[⬆ back to top](#table-of-contents)**
 
