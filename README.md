@@ -37,8 +37,6 @@ City Hall Employee: Can access appointment requests, generate visit schedules fo
 
 ## Preview 
 
-![]
-
 ## Live Page
 
 [LIVE LINK](https://github.com/chingu-voyages/v52-tier1-team-04)
@@ -53,7 +51,7 @@ City Hall Employee: Can access appointment requests, generate visit schedules fo
 
 ## Credits
 
-## [Our Team]
+## Our Team
 
 <a name="types--our_team"></a>
 
