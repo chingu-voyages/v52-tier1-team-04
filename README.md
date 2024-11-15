@@ -30,7 +30,7 @@ coding!
 - Teammate name #n: [GitHub](https://github.com/ghaccountname) / [LinkedIn](https://linkedin.com/in/liaccountname)
 - Teammate name #n: [GitHub](https://github.com/ghaccountname) / [LinkedIn](https://linkedin.com/in/liaccountname)
 
-## [^1] With appropriate equiment.
+[^1] With appropriate equipment.
 
 _ADMIN ONLY_
 
@@ -83,3 +83,20 @@ Etc:
 ---
 
 ## [SETUP](#4)
+
+This project uses [Next.js](https://nextjs.org)
+
+To run the development server:
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
+<details>
+    <summary>Local</summary>
+    <p>Local server address: [http://localhost:3000](http://localhost:3000)</p>
+</details>
