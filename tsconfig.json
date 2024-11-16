@@ -1,15 +1,4 @@
-/*
---if necessary, uncomment this, comment/delete the compiler option below (from yellow bracket to yellow bracket) 
-is the start to revert back to jsx
-
 {
-  "compilerOptions": {
-    "paths": {
-      "@/*": ["./*"]
-    }
-  }
- }
-*/{
   "compilerOptions": {
     "target": "ESNext",
     "baseUrl": ".",
@@ -24,7 +13,7 @@ is the start to revert back to jsx
     "noEmit": true,
     "esModuleInterop": true,
     "module": "ESNext",
-    "moduleResolution": "bundler",
+    "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
@@ -38,12 +27,14 @@ is the start to revert back to jsx
       "@/*": [
         "./*"
       ]
-    }
+    },
+    "types": [
+      "node"
+    ],
   },
   "include": [
+    "styles/**/*.d.ts",
     "next-env.d.ts",
-    "app/**/*.ts",
-    "app/**/*.tsx",
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts"
