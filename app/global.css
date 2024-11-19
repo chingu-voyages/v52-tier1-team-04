@@ -23,10 +23,16 @@ p { margin: 15px 0; } */
 }
 
 :root {
-    font-family: sans-serif;
-    background-color: whitesmoke;
+    --background: whitesmoke;
+    --foreground: black;
     font-size: 16px;
     /* Base font size for rem calculations */
+}
+
+body {
+    color: var(--foreground);
+    background: var(--background);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1.globalTitle {
