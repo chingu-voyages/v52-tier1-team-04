@@ -1,0 +1,22 @@
+/* app/components/navBar.module.css */
+
+.nav {
+    background-color: black;
+    padding: 1rem;
+    align-items: flex-end;
+}
+
+.navList {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+
+.navItem a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.navItem a:hover {
+    text-decoration: underline;
+}

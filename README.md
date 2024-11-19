@@ -76,7 +76,9 @@ Commit Messages:
 Etc:
 
 - Use PascalCase: `LoginForm.jsx`, `AdminPage.jsx`
-- CSS files match their use name: `LoginForm.css`, `AdminPage.css`
+- CSS files match their use name: `LoginForm.module.css`, `AdminPage.module.css`
+- CSS help: [EveryLayout](https://every-layout.dev/rudiments/global-and-local-styling/)
+- All text is listed as contextualized constants per page
 
 ## **[⬆ back to top](#table-of-contents)**
 
