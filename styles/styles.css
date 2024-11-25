@@ -1,0 +1,17 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  border: 1px solid black;
+  padding: 2rem;
+}
+
+.form-heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  background-color: black;
+  color: white;
+  width: 100%;
+  padding: 1rem 0;
+}
