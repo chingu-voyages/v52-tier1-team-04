@@ -1,10 +1,12 @@
 ///.chingu_v52_project/v52-tier1-team-04/app/_tests_App.test.js
+// UNIT - component behaves as expected given specific inputs (e.g. props)
+
 import { render, screen } from '@testing-library/react';
 import Page from './page';       // NOTE: match Path of what is being tested
 
 test('renders headings with agnostic text content, from props', () => {
     const { debug } = render(<Page />);
-    debug();    // Debug ^^ that rendered DOM
+    debug();                                    // debugs <Page /> in DOM
 
     const h1TextPresent = screen.getByRole('heading', { level: 1 })
     expect(h1TextPresent).toBeInTheDocument()
