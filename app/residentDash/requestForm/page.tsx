@@ -4,8 +4,8 @@ import styles from './components/request.module.css'
 import Link from 'next/link'
 
 const REQUEST_TEXT = {
-    title: "Star Star Star",
-    subtitle: "Sun sun sun",
+    title: "Resident Title",
+    subtitle: "Resident Subtitle",
 };
 
 export default function FormPage() {
