@@ -5,8 +5,8 @@ import Link from 'next/link'
 
 
 const ABOUT_TEXT = {
-    title: "About ChinguteeOneTurFour",
-    subtitle: "We're Here, So You Don't Have To Be",
+    title: "Title",
+    subtitle: "Subtitle",
 }
 
 export default function AboutPage() {
