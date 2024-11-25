@@ -6,8 +6,8 @@ import Link from 'next/link'
 
 
 const ABOUT_TEXT = {
-    title: "Tyger Tyger, burning bright",
-    subtitle: "In the forests of the night",
+    title: "About title",
+    subtitle: "About Subtitle",
 }
 
 export default function AboutPage() {
@@ -20,8 +20,8 @@ export default function AboutPage() {
                 <h3 className={`globalSubtitle ${styles.textSubheading}`}>{ABOUT_TEXT.subtitle}</h3>
 
                 <div className={styles['flex-container']}>
-                    <div>What where</div>
-                    <div>When why lorem ipsum</div>
+                    <div>Containers</div>
+                    <div>Containers</div>
                 </div>
             </main>
         </Link>
