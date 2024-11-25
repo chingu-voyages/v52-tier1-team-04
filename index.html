@@ -1,59 +1,84 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <title>Solar Panel Project</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-  <title>Solar Panel Project</title>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
 
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/styles.css">
+  <body>
+    <header><</header>
 
-</head>
-
-<body>
-  <header>
-    <
-  </header>
-
-  <!-- Start of form (really just trying to test out merging code.) -->
-  <div class="form-heading">
-    <div class="sub-heading">
-      <h2>Reqest Form</h2>
-      <p>Lorem ipsum dolor sit amet </p>
+    <!-- Start of form (really just trying to test out merging code.) -->
+    <div class="form-heading">
+      <div class="sub-heading">
+        <h2>Reqest Form</h2>
+        <p>Lorem ipsum dolor sit amet</p>
+      </div>
+      <div class="main-heading">
+        <h1>Estimated Wait Time</h1>
+      </div>
     </div>
-    <div class="main-heading">
-      <h1>Estimated Wait Time</h1>
-    </div>
-  </div>
 
-  <hr>
-  <h4>Required(*)</h4>
-  <form action="/submit" method="post">
-    <label for="name">Name*</label><br>
-    <input type="text" id="name" name="name" placeholder="John Smith" required><br><br>
+    <hr />
+    <h4>Required(*)</h4>
+    <form action="/submit" method="post">
+      <label for="name">Name*</label><br />
+      <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="John Smith"
+        required
+      /><br /><br />
 
-    <label for="email">Email*</label><br>
-    <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+      <label for="email">Email*</label><br />
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Enter your email"
+        required
+      /><br /><br />
 
-    <label for="phone">Phone Number</label><br>
-    <input type="tel" id="phone" name="phone" placeholder="(123) 456-7890"><br><br>
+      <label for="phone">Phone Number</label><br />
+      <input
+        type="tel"
+        id="phone"
+        name="phone"
+        placeholder="(123) 456-7890"
+      /><br /><br />
 
-    <label for="address">Address*</label><br>
-    <input type="text" id="address" name="address" placeholder="1234 Chingu Lane" required><br><br>
+      <label for="address">Address*</label><br />
+      <input
+        type="text"
+        id="address"
+        name="address"
+        placeholder="1234 Chingu Lane"
+        required
+      /><br /><br />
 
-    <label for="issue">Issue Description*</label><br>
-    <textarea id="issue" name="issue" rows="4" cols="50"
-      placeholder="Description of issues goes here."></textarea><br><br>
-    <hr>
-    <button type="submit">Next</button>
-  </form>
-</body>
-
+      <label for="issue">Issue Description*</label><br />
+      <textarea
+        id="issue"
+        name="issue"
+        rows="4"
+        cols="50"
+        placeholder="Description of issues goes here."
+      ></textarea
+      ><br /><br />
+      <hr />
+      <button type="submit">Next</button>
+    </form>
+    <div class="social-cards"></div>
+  </body>
 </html>
