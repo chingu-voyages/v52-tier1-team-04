@@ -1,4 +1,5 @@
-// app/page.tsx - Route: /   
+// Page Component ./app/page.tsx   
+// equivalent to "/"
 
 // import 'app/global.css'
 import styles from './components/home.module.css'
@@ -10,7 +11,7 @@ const HOME_TEXT = {
     formPlaceholder: "Enter your email",
 };
 
-export default function Home() {
+export default function PageHome() {
 
     return (
         <Link href="/dashboard" prefetch={true}>

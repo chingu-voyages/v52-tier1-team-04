@@ -1,4 +1,4 @@
-// Page Component app/about/page.tsx 
+// Page Component ./about/page.tsx   
 
 import styles from '../components/about.module.css'
 import Link from 'next/link'
