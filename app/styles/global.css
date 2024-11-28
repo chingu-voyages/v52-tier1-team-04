@@ -23,32 +23,52 @@ p { margin: 15px 0; } */
 }
 
 :root {
-    --background: whitesmoke;
-    --foreground: black;
+    --background: #f4f7fbe;
+    --foreground: #333;
     font-size: 16px;
+    --primary-blue: #3498db;
+    --primary-dark: #2c3e50;
+    --gray-light: #bdc3c7;
+    /* Light gray */
+    --gray-dark: #7f8c8d;
+    /* Dark gray */
     /* Base font size for rem calculations */
 }
 
 body {
     color: var(--foreground);
     background: var(--background);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    /* Ensure the body takes full viewport height */
+    display: block;
+    margin-top: 60px;
+    /* Prevents hiding */
+}
+
+.container {
+    /* Keeps content in same place???*/
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* Center content horizontally */
+    padding: 20px;
 }
 
 h1.globalTitle {
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 1rem;
-    color: black;
+    color: var(--primary-dark)
 }
 
 h3.globalSubtitle {
     font-size: 1.5rem;
-    color: gray;
+    color: var(--primary-dark)
 }
 
 p {
-    margin: 15px 0;
+    color: var(--foreground);
+    margin-bottom: 1rem;
 }
 
 /* Input Fields */
@@ -66,6 +86,11 @@ input {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* Adjust any specific elements that need centering, e.g., main content */
+.main-content {
+    text-align: center;
 }
 
 .mt-2 {

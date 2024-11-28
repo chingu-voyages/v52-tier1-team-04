@@ -1,6 +1,6 @@
 // app/error.tsx
 
-`use client`
+'use client';
 
 import HttpCat from '@/app/components/common/HttpCat';
 

@@ -2,7 +2,7 @@
 // INTEGRATION - interaction between NavBar and page components
 
 import { render, screen } from '@testing-library/react';
-import NavBar from 'app/components/common/navbar.tsx';
+import NavBar from '@/components/common/navbar';
 
 test('renders Admin Dashboard with headings and containers', () => {
     const { debug } = render(<NavBar />);

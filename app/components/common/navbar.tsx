@@ -1,6 +1,6 @@
-// app/components/common/navbar.tsx
+// app/components/common/NavBar.tsx
 
-import styles from 'app/styles/navBar.module.css'
+import styles from 'app/styles/NavBar.module.css'
 import Link from "next/link";
 
 
@@ -10,7 +10,7 @@ const NAV_LINKS = [
     { href: "/adminDash", label: "Admin" },
     { href: "/scheduling", label: "Scheduling" },
     { href: "/dashboard", label: "Dashboards" },
-    { href: "/page", label: "Home" },
+    { href: "/", label: "Home" },
 
     { href: "/documentation", label: "documentation" },
 ]

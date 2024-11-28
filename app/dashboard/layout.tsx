@@ -2,7 +2,7 @@
 
 // All dashboard functionality
 
-import '@/styles/global.css'
+import 'app/styles/global.css'
 
 export default function AdminLayout({ children }: {children: React.ReactNode }) {
     return (

@@ -14,14 +14,12 @@
 
 .flex-container {
     display: flex;
-    justify-content: center; /* Align items horizontally */
-    align-items: center; /* Align items vertically */
-    border-color:var(--foreground);
 }
-.flex-container > div {
-    background-color:var(--foreground);
+
+.flex-container>div {
     margin: 10px;
     padding: 20px;
     font-size: 30px;
-    text-align: center; /* Center-align text */
+    text-align: center;
+    /* Center-align text */
 }

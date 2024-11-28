@@ -1,9 +1,13 @@
 /* app/components/navBar.module.css */
 
 .nav {
+    position: fixed; /*stay at top */
+    top: 0;
+    left: 0;
+    width: 100%;
     background-color: var(--background);
     padding: 1rem;
-    align-items: flex-end;
+    z-index: 1000;
 }
 
 .navList {

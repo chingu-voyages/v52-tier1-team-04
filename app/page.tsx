@@ -13,7 +13,7 @@ const HOME_TEXT = {
 export default function Home() {
 
     return (
-        <Link href="/dashboard" prefetch={true}>
+        <Link href="/" prefetch={true}>
             <main>
                 <div className={styles.shape} />
                 {/* global className with module-specific template literals */}
