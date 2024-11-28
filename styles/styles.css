@@ -1,0 +1,111 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  padding: 2rem;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  flex: 1;
+}
+
+.form-heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  background-color: black;
+  color: white;
+  width: 100%;
+  padding: 1rem 0;
+  margin-top: 1rem;
+}
+
+.card-parent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 44px;
+  margin-top: 2rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 415px;
+  padding: 24px;
+  border: 0.5px solid #e7e7e7;
+  background: #bdd7ff;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  height: auto;
+  overflow: auto;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+  display: flex;
+  flex-direction: columns;
+  align-items: end;
+  margin-bottom: 16px;
+}
+
+.card-content {
+  margin-left: 16px;
+}
+
+.card-content p {
+  margin: 0;
+}
+
+p.name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+p.role {
+  font-style: italic;
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social-btn {
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 48px;
+}
+
+.social-btn:hover {
+  background: #0061fe;
+}
+
+.social-btn svg {
+  fill: currentColor;
+}
+
+.social-btn:hover svg {
+  fill: #ffffff;
+}
