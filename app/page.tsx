@@ -1,7 +1,7 @@
 // app/page.tsx - Route: /   
 
 // import 'app/global.css'
-import styles from './components/home.module.css'
+import styles from 'app/styles/home.module.css'
 import Link from 'next/link'
 
 const HOME_TEXT = {

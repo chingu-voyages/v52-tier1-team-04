@@ -41,6 +41,23 @@ export default function DocumentationPage() {
                     <ol>Component</ol>
                 </ul>
             </div>
+
+            <div>
+                <h3>Testing</h3>
+                <p>To test:</p>
+                <ul>
+                    <li>Install, every time</li>
+                    <pre><code>npm install && npm install jest --save-dev</code></pre>
+                    <li>Run tests</li>
+                    <pre><code>npm test</code></pre>
+                    <li>Run a _specific_ test</li>
+                    <pre><code>npx jest path/to/your/testFile.test.js</code></pre>
+                    <li>Debug Jest Configuration</li>
+                    <pre><code>npx jest --showConfig</code></pre>
+                </ul>
+            </div>
+
+
         </div>
     )
 }

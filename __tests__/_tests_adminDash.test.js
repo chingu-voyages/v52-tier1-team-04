@@ -2,10 +2,10 @@
 // UNIT - component behaves as expected given specific inputs (e.g. props)
 
 import { render, screen } from '@testing-library/react';
-import AdminPage from './adminDash/page';
+import Dashboard from 'app/dashboard/page';
 
-test('renders Admin Dashboard with headings and containers', () => {
-    const { debug } = render(<AdminPage />);
+test('renders Dashboard with headings and containers', () => {
+    const { debug } = render(<Dashboard />);
     debug()
 
     const p1TextPresent = screen.getByRole('paragraph', { level: 1 })
