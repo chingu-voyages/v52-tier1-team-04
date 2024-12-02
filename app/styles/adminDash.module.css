@@ -1,0 +1,25 @@
+/* 'app/styles/adminDash.module.css` */
+
+.shape {
+    height: 0;
+    width: 0;
+    border-bottom: 30px solid var(--foreground);
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+}
+
+.textSubheading {
+    font-style: italic;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-container>div {
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    /* Center-align text */
+}

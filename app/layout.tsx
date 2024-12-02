@@ -1,7 +1,7 @@
-// ./layout.tsx (ROOT LAYOUT)
+// app/layout.tsx (ROOT LAYOUT)
 
-import 'app/global.css'
-import NavBar from './components/navbar'
+import 'app/styles/global.css'
+import NavBar from './components/common/navbar';
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (

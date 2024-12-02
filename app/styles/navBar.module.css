@@ -1,0 +1,26 @@
+/* app/components/navBar.module.css */
+
+.nav {
+    position: fixed; /*stay at top */
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--background);
+    padding: 1rem;
+    z-index: 1000;
+}
+
+.navList {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+
+.navItem a {
+    text-decoration: none;
+    color: var(--foreground);
+}
+
+.navItem a:hover {
+    text-decoration: underline;
+}

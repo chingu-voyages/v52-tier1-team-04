@@ -1,0 +1,13 @@
+/* 'app/styles/about.module.css` */
+
+.shape {
+    height: 0;
+    width: 0;
+    border-bottom: 30px solid var(--foreground);
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+}
+
+.textSubheading {
+    font-style: italic;
+}
